@@ -1,6 +1,6 @@
 .home {
   .home-profile {
-    @include transform(translateY( 16vh));
+    @include transform(translateY( 10vh));
     padding: 0 0 .5rem;
     text-align: center;
 
@@ -9,7 +9,7 @@
 
       img {
         display: inline-block;
-        width: 8rem;
+        width: 15rem;
         height: auto;
         margin: 0 auto;
         @include border-radius(100%);
@@ -35,6 +35,23 @@
       font-weight: normal;
       margin: 0;
       padding: .5rem;
+	text-align: justify;
+	text-align-last: center;
+	a:visited {
+  		color: $single-link-color;
+  		background-color: transparent;
+  		text-decoration: none;
+	}
+	a:link {
+  		color: $single-link-color;
+  		background-color: transparent;
+  		text-decoration: none;
+	}
+	a:hover {
+  		color: $single-link-hover-color;
+  		background-color: transparent;
+  		text-decoration: none;
+	}
     }
 
     .links {
